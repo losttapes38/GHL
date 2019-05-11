@@ -1,0 +1,94 @@
+h1{
+	font-family: trajan pro;
+	text-align: left;
+	padding-top: 4px;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	font-family: trajan pro;
+	font-weight: bold;
+}
+
+li{
+	float: left;
+}
+
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover{
+	background-color: #111;
+
+
+
+}
+.container{
+	float: left;
+}
+
+.image{
+	float: left;
+	opacity: 1;
+	display: block;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+
+.middle{
+	float: left;
+	opacity: 0;
+	position: absolute;
+	transform: translate(-1%, 8%);
+}
+
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text{
+	font-family: trajan pro;
+	color: black;
+	font-size: 25px;
+	padding: 16px 32px;
+	text-align: center;
+}
+
+
+
+
+
+h2.landmarkheading{
+	font-family: trajan pro;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+h3{
+	font-family: trajan pro;
+	text-align: center;
+}
+h4{
+	font-family: trajan pro;
+	text-align: center;
+	padding-top: 4px;
+}
+div.bottomdiv{
+	background-color: #333;
+	padding: 20px;
+	margin-top: 96px;
+
+}

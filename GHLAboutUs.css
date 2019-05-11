@@ -1,0 +1,84 @@
+h1{
+	font-family: trajan pro;
+	text-align: left;
+	padding-top: 4px;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	font-family: trajan pro;
+	font-weight: bold;
+}
+
+li{
+	float: left;
+}
+
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover{
+	background-color: #111;
+
+}
+div.container{
+	position: relative;
+	text-align: center;
+	color: white;
+	filter: grayscale(100%);
+}
+
+
+div.center{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+h2{
+	font-family: trajan pro;
+	font-size: 42px;
+	text-shadow: 1px 1px black;
+}
+
+
+p{
+	font-size: 20px;
+	font-family: batang;
+	color: #4d4d4d;
+	font-weight: bold;
+}
+div.contactdiv{
+	background-color: #333;
+	padding: 20px 20px;
+}
+h2.contacth{
+	font-family: trajan pro;
+	text-align: center;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	color: white;
+	font-size: 25px;
+}
+h3.email{
+	font-family: trajan pro;
+	text-align: center;
+}
+h3.information{
+	font-family: trajan pro;
+	text-align: center;
+	color: #4d4d4d;
+}
+
+div.bottomdiv{
+	background-color: #333;
+	padding: 20px;
+}
